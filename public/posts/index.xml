@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Z1-Coder</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Z1-Coder</description>
+    <generator>Hugo -- 0.141.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jan 2025 19:48:12 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Z1-Coder: Unleashing the System-2 Reasoning Power of LLMs to Code Generation</title>
+      <link>http://localhost:1313/posts/202501-z1-coder-init/z1-coder-blog/</link>
+      <pubDate>Mon, 20 Jan 2025 19:48:12 +0800</pubDate>
+      <guid>http://localhost:1313/posts/202501-z1-coder-init/z1-coder-blog/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Github: &lt;a href=&#34;https://github.com/Z1-Coder/Z1-Coder&#34;&gt;https://github.com/Z1-Coder/Z1-Coder&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;fig1.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We introduce Z1-Coder, a series of fully open-source (&lt;a href=&#34;https://github.com/Z1-Coder/Z1-Coder&#34;&gt;code&lt;/a&gt;, &lt;a href=&#34;https://huggingface.co/Z1-Coder/Z1-Coder-7B&#34;&gt;weights&lt;/a&gt;, &lt;a href=&#34;https://huggingface.co/datasets/Z1-Coder/Z1Coder-Evol-CoT-110K&#34;&gt;data&lt;/a&gt;) LLMs that bridges reasoning capabilities with code generation.&lt;/li&gt;
+&lt;li&gt;To train Z1-Coder, we curate reasoning trajectories on code-related datasets and propose self-invoking evolving to further refine models&amp;rsquo; reasoning behaviour in code generation.&lt;/li&gt;
+&lt;li&gt;Z1-Coder model significantly outperforms other open-source models on different code generation benchmarks at a comparable size. Specifically, Z1-Coder-7B surpasses the best 7B code LLMs Qwen2.5-Coder-7B-Instruct, &lt;strong&gt;with only 1% of its post-training data.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Z1-Coder-7B also achieves 20.7% pass@1 on LiveCodeBench(20240801-20241101) and 51.4% on BigCodeBench, which achieves comparable performance level compared to DeepseekCoder-33B-Instruct (21.5% and 51.1%) and LLaMA3.1-70B-Instruct (19.3% and 54.8%).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;System-2 Reasoning LLMs such as o1 and Gemini-2.0-flash-thinking have demonstrated remarkable progress in complex problem solving by producing a long internal chain of thought (CoT), especially in complex programming problems. However, the question about how they achieve such a great performance level are un-accessible, presenting a barrier to the participation of the academic and open-source communities.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
