@@ -4,6 +4,7 @@ draft = false
 title = 'Z1-Coder: Unleashing the System-2 Reasoning Power of LLMs to Code Generation'
 +++
 
+**Author: Zhaojian Yu, YilunZhao, Arman Cohan, Xiao-Ping Zhang**
 **Github: https://github.com/Z1-Coder/Z1-Coder**
 
 {{<figure src="fig1.png">}}
